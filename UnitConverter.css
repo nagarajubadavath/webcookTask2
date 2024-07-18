@@ -1,0 +1,16 @@
+body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color: rgb(201, 163, 218);
+    
+    
+}
+
+#inputContainer{
+    border:2px solid black;
+    border-radius:8px;
+    height:200px;
+    font-family: 'Courier New', Courier, monospace;
+    color:chocolate;
+}
