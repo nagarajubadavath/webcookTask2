@@ -1,0 +1,91 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(179, 199, 218);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+}
+
+.outer {
+    width: 400px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(14, 187, 28);
+    margin-bottom: 20px;
+}
+
+.data {
+    width: calc(100% - 22px);
+    font-size: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid green;
+    border-radius: 12px;
+}
+
+button {
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid green;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: white;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
+
+#btn {
+    margin-left: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fafafa;
+}
+
+.task-input {
+    flex: 1;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid green;
+    border-radius: 12px;
+}
+
+.btnn, .delete-btn {
+    padding: 8px 12px;
+    border: 1px solid green;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btnn:hover, .delete-btn:hover {
+    background-color: #f0f0f0;
+}
